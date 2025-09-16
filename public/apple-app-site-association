@@ -1,16 +1,19 @@
 {
     "applinks": {
-        "details": [{
-            "appIDs": ["4QMDKC8VLJ.com.swiftlee.StockAnalyzer"],
-            "components": [{
-                "/": "/stock/*",
-                "comment": "Matches any URL whose path starts with /stock/"
-            }]
-        }]
+        "apps": [],
+        "details": [
+            {
+                "appID": "8YFZ2N3JSC.com.mandirisekuritas.growin.dev",
+                "paths": [
+                    "*",
+                    "/"
+                ]
+            }
+        ]
     },
-    "appclips": {
+    "webcredentials": {
         "apps": [
-            "4QMDKC8VLJ.com.swiftlee.StockAnalyzer.Clip"
+            "8YFZ2N3JSC.com.mandirisekuritas.growin.dev"
         ]
     }
 }
