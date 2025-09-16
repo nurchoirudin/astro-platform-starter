@@ -1,6 +1,4 @@
-# netlify.toml
-
 [[headers]]
-  for = "/*.json"
+  for = "/.well-known/apple-app-site-association"
   [headers.values]
     Content-Type = "application/json; charset=utf-8"
