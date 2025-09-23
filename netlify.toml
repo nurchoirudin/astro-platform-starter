@@ -1,4 +1,4 @@
 [[headers]]
-  for = "/.well-known/apple-app-site-association"
+  for = "/apple-path/apple-app-site-association"
   [headers.values]
     Content-Type = "application/json; charset=utf-8"
