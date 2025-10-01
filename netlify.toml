@@ -1,4 +1,4 @@
-#[[headers]]
- # for = "/apple-app-site-association"
-  #[headers.values]
-   # Content-Type = "application/json; charset=utf-8"
+[[headers]]
+  for = "/apple-app-site-association"
+  [headers.values]
+    Content-Type = "application/json; charset=utf-8"
